@@ -31,7 +31,8 @@ Make sure you have:
 ```bash
 pip install pillow
 
-**How to Run
+
+## How to Run
 **1. Launch the Application:
 **-python main.py
 
@@ -58,7 +59,8 @@ pip install pillow
 **- Pillow (PIL): Used for encoding/decoding within image pixels
 
 **Screenshots
-**![Main Interface]("Screenshot (4622).png")
+**![Main Interface]![Screenshot (4622)](https://github.com/user-attachments/assets/1f02cb7a-94e5-4edc-8e68-478c53d341be)
+
 
 **Acknowledgements
 **This project was developed as a part of cybersecurity exploration. The project aims to raise awareness about secure communication using modern steganography techniques.
