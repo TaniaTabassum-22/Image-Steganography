@@ -1,9 +1,10 @@
-## SecureSteg - Image Steganography System
+# SecureSteg - Image Steganography System
 
-SecureSteg is a Python-based desktop GUI application that lets you hide and extract secret messages within images using LSB (Least Significant Bit) technique. Designed with a clean and responsive interface, the tool helps users send covert messages securely without altering the image’s appearance.
+SecureSteg is a Python-based desktop GUI application that lets you hide and extract secret messages within images using the **LSB (Least Significant Bit)** technique. Designed with a clean and responsive interface, the tool helps users send covert messages securely without altering the image’s appearance.
 
+---
 
-## Overview
+##  Overview
 
 This project allows:
 - Secret text embedding within images (encoding)
@@ -11,8 +12,9 @@ This project allows:
 
 It uses **Tkinter** for the GUI and **Pillow (PIL)** for image processing.
 
+---
 
-## Features
+##  Features
 
 - **Text Encoding**: Embed messages in PNG or JPEG images.
 - **Message Decoding**: Retrieve hidden messages with a single click.
@@ -20,8 +22,9 @@ It uses **Tkinter** for the GUI and **Pillow (PIL)** for image processing.
 - **Image Support**: Works best with PNG (lossless), but also supports JPG.
 - **Modern Themes**: Styled with a subtle and neat color palette.
 
+---
 
-## Prerequisites
+##  Prerequisites
 
 Make sure you have:
 
@@ -30,42 +33,66 @@ Make sure you have:
 
 ```bash
 pip install pillow
+```
 
+---
 
-## How to Run
-**1. Launch the Application:
-**-python main.py
+##  How to Run the Application
 
-**2. Encode a Message:
-**- Click "Choose Image" to load an image (PNG/JPG).
-**- Type your message in the provided input.
-**- Click "Encode Message" and save the output image.
+Follow these simple steps to get started with SecureSteg:
 
-**3. Decode a Message:
-**- Load the encoded image using "Choose Image".
-**- Click "Decode Message" to reveal the secret message.
+###  1. Launch the Application
+Open your terminal or command prompt and run:
 
-**Best Practices
+```bash
+python main.py
+```
 
-**- Prefer PNG format for accuracy and message preservation.
-**- Keep messages short — image space is limited.
-**- Do not use highly compressed formats (like WebP or heavily optimized JPGs).
+###  2. Encode a Message
+- Click **“Choose Image”** to load a PNG or JPG image.
+- Type your **secret message** into the input field.
+- Click **“Encode Message”** and save the encoded image to your system.
 
-**Project Structure
+###  3. Decode a Message
+- Load the **encoded image** using **“Choose Image”**.
+- Click **“Decode Message”** to reveal and read the hidden message.
 
-**├── main.py                # Application script
-**├── README.md              # Project documentation
-**- Tkinter: Used for GUI
-**- Pillow (PIL): Used for encoding/decoding within image pixels
+---
 
-**Screenshots
+###  Tips for Best Results
+-  Prefer **PNG format** for better accuracy (it's lossless).
+-  Keep messages **short**, since embedding capacity is limited.
+-  Avoid **compressed formats** like WebP or overly optimized JPGs.
+
+---
+
+##  Project Structure
+
+```
+main.py            # Application script
+README.md          # Project documentation
+
+Dependencies:
+- Tkinter          # Used for GUI
+- Pillow (PIL)     # Used for encoding/decoding within image pixels
+```
+
+---
+
+##  Screenshots
+
+### Main Interface
 ![image alt](https://github.com/TaniaTabassum-22/Image-Steganography/blob/main/Home_Page.png?raw=true)
 
+---
 
-**Acknowledgements
-**This project was developed as a part of cybersecurity exploration. The project aims to raise awareness about secure communication using modern steganography techniques.
+##  Acknowledgements
 
-**License
+This project was developed as a part of cybersecurity exploration. The project aims to raise awareness about secure communication using modern steganography techniques.
 
-**This project is licensed under the **MIT License**.  
-**See the [LICENSE]() file for details.**
+---
+
+##  License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
