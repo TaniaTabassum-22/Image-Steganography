@@ -59,7 +59,7 @@ pip install pillow
 **- Pillow (PIL): Used for encoding/decoding within image pixels
 
 **Screenshots
-**![Main Interface]![Screenshot (4622)](https://github.com/user-attachments/assets/1f02cb7a-94e5-4edc-8e68-478c53d341be)
+![image alt](https://github.com/TaniaTabassum-22/Image-Steganography/blob/main/Home_Page.png?raw=true)
 
 
 **Acknowledgements
