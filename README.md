@@ -31,42 +31,39 @@ Make sure you have:
 ```bash
 pip install pillow
 
-## How to Run
+**How to Run
+**1. Launch the Application:
+**-python main.py
 
-1. Launch the Application:
-- python main.py
+**2. Encode a Message:
+**- Click "Choose Image" to load an image (PNG/JPG).
+**- Type your message in the provided input.
+**- Click "Encode Message" and save the output image.
 
-2. Encode a Message:
-- Click "Choose Image" to load an image (PNG/JPG).
-- Type your message in the provided input.
-- Click "Encode Message" and save the output image.
+**3. Decode a Message:
+**- Load the encoded image using "Choose Image".
+**- Click "Decode Message" to reveal the secret message.
 
-3. Decode a Message:
-- Load the encoded image using "Choose Image".
-- Click "Decode Message" to reveal the secret message.
+**Best Practices
 
+**- Prefer PNG format for accuracy and message preservation.
+**- Keep messages short — image space is limited.
+**- Do not use highly compressed formats (like WebP or heavily optimized JPGs).
 
-## Best Practices
+**Project Structure
 
-- Prefer PNG format for accuracy and message preservation.
-- Keep messages short — image space is limited.
-- Do not use highly compressed formats (like WebP or heavily optimized JPGs).
+**├── main.py                # Application script
+**├── README.md              # Project documentation
+**- Tkinter: Used for GUI
+**- Pillow (PIL): Used for encoding/decoding within image pixels
 
-## Project Structure
+**Screenshots
+**![Main Interface]("Screenshot (4622).png")
 
-├── main.py                # Application script
-├── README.md              # Project documentation
-- Tkinter: Used for GUI
-- Pillow (PIL): Used for encoding/decoding within image pixels
+**Acknowledgements
+**This project was developed as a part of cybersecurity exploration. The project aims to raise awareness about secure communication using modern steganography techniques.
 
-## Screenshots
-![Main Interface]("C:\Users\Dell\Desktop\Image Steganography\Image-Steganography\Screenshot (4622).png")
+**License
 
-
-## Acknowledgements
-This project was developed as a part of cybersecurity exploration. The project aims to raise awareness about secure communication using modern steganography techniques.
-
-## License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
+**This project is licensed under the **MIT License**.  
+**See the [LICENSE]() file for details.**
